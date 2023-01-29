@@ -1,0 +1,10 @@
+.parent-container {
+    display: flex;
+    box-shadow: 4px 4px 8px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 8px;
+    height: 40vh;
+    width: 20vw;
+}

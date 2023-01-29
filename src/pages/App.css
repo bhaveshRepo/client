@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.parent_container{
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.element-chart{
+  border-radius: 18px;
+  border: 1px solid black;
+  margin-bottom: 4px;
+}
+
+.file_container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-top: auto;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid black 
+}
+
+.element-file{
+  font-size: 0.9em;
+}
+
+.element-label{
+  padding: 2px;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  border: 1px solid black;
+}
